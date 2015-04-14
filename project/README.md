@@ -9,7 +9,7 @@ All the ratings of professors at USC.
 
 data file name: usc_prof_ratings.json
 
-#professor: 2191
+number of professors: 2191
 
 ####fields in each data item
 |**_fields_**|**_description_**    |
