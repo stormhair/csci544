@@ -5,11 +5,11 @@
 * Wenqiang Wang
 
 ###Data description
-All the ratings of professors at USC.
+All the ratings of professors at USC in json format.
 
-data file name: usc_prof_ratings.json
+data file name: _usc_prof_ratings.json_
 
-number of professors: 2191
+number of professors: _2191_
 
 ####fields in each data item
 |**_fields_**|**_description_**    |
@@ -49,4 +49,5 @@ number of professors: 2191
 |unUsefulGrouping |                     |
 |usefulGrouping   |                     |
 
+###Distribution of the number of comments of each professor
 
