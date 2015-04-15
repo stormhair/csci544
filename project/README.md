@@ -7,7 +7,7 @@
 ###Data description
 All the ratings of professors at USC in json format.
 
-data file name: _usc.prof.ratings.json_
+**_usc.prof.ratings.json_**
 
 number of professors: _2191_
 
@@ -49,7 +49,7 @@ number of professors: _2191_
 |unUsefulGrouping |                     |
 |usefulGrouping   |                     |
 
-###Distribution of the number of comments of each professor
+####Distribution of the number of comments of each professor
 It is power-law...
 
 |**_Mean_**|**_Median_**|**_Max._**|**_Min._**|
@@ -57,3 +57,19 @@ It is power-law...
 |7.1       |4           |172       |1         |
 
 ![Distribution](dist.jpg)
+
+**_usc.prof.comments_**
+
+####format
+
+[pid]\t[first name]\t[last name]\t[#comments]
+
+[comment1]
+
+[comment2]
+
+...
+
+[pid]\t[first name]\t[last name]\t[#comments]
+
+...
