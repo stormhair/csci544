@@ -53,7 +53,10 @@ def main():
 					if gold[key1][key2]>0:
 						gold[key1][key2]-=1
 						n_acc+=1
-	print('Precision: '+str(n_acc/n_pred)+'\tRecall: '+str(n_acc/n_gold))
+	prec = n_acc/n_pred
+	rec = n_acc/n_gold
+	fscore = 2*prec*rec/(prec+rec)
+	print('Precision: '+str(prec)+'\tRecall: '+str(rec)+'\tF-score: '+str(fscore))
 
 if __name__ == '__main__':
 	main()
